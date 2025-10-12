@@ -1,0 +1,94 @@
+import "./../styles/Task.css";
+
+export default function Task() {
+  return (
+    <div className="task-page">
+      {/* Header */}
+      <div className="task-header">
+        <h2>Explore Task</h2>
+        <div className="task-actions">
+          <input type="text" placeholder="Search Task" className="search-box" />
+          <button className="btn">Category</button>
+          <button className="btn">Sort By: Deadline</button>
+        </div>
+      </div>
+
+      {/* Time Limit Section */}
+      <section className="task-section">
+        <h3>Time Limit</h3>
+        <div className="task-grid">
+          <div className="task-card">
+            <img src="https://via.placeholder.com/250x120" alt="Task" />
+            <h4>Creating Awesome Mobile Apps</h4>
+            <p>UI/UX Design</p>
+            <div className="progress-bar">
+              <div className="progress" style={{ width: "90%" }}></div>
+            </div>
+            <div className="task-info">
+              <span>1 Hour</span>
+              <div className="avatars">
+                <img src="https://i.pravatar.cc/20?img=1" alt="avatar" />
+                <img src="https://i.pravatar.cc/20?img=2" alt="avatar" />
+                <img src="https://i.pravatar.cc/20?img=3" alt="avatar" />
+              </div>
+            </div>
+          </div>
+
+          <div className="task-card">
+            <img src="https://via.placeholder.com/250x120" alt="Task" />
+            <h4>Creating Fresh Website</h4>
+            <p>Web Developer</p>
+            <div className="progress-bar">
+              <div className="progress" style={{ width: "85%" }}></div>
+            </div>
+            <div className="task-info">
+              <span>2 Hours</span>
+              <div className="avatars">
+                <img src="https://i.pravatar.cc/20?img=4" alt="avatar" />
+                <img src="https://i.pravatar.cc/20?img=5" alt="avatar" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* New Task Section */}
+      <section className="task-section">
+        <h3>New Task</h3>
+        <div className="task-grid">
+          <div className="task-card">
+            <img src="https://via.placeholder.com/250x120" alt="Task" />
+            <h4>Creating Mobile App Design</h4>
+            <p>UI/UX Design</p>
+            <div className="progress-bar">
+              <div className="progress" style={{ width: "75%" }}></div>
+            </div>
+            <div className="task-info">
+              <span>3 Days Left</span>
+              <div className="avatars">
+                <img src="https://i.pravatar.cc/20?img=6" alt="avatar" />
+                <img src="https://i.pravatar.cc/20?img=7" alt="avatar" />
+              </div>
+            </div>
+          </div>
+
+          <div className="task-card">
+            <img src="https://via.placeholder.com/250x120" alt="Task" />
+            <h4>Creating Perfect Website</h4>
+            <p>Web Developer</p>
+            <div className="progress-bar">
+              <div className="progress" style={{ width: "85%" }}></div>
+            </div>
+            <div className="task-info">
+              <span>4 Days Left</span>
+              <div className="avatars">
+                <img src="https://i.pravatar.cc/20?img=8" alt="avatar" />
+                <img src="https://i.pravatar.cc/20?img=9" alt="avatar" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

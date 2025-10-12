@@ -1,0 +1,73 @@
+@import "tailwindcss";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem; /* 16px */
+
+}
+.active{
+  text-decoration: none;
+  text-decoration-line: underline;
+
+}
+
+/* Light theme (default) 
+/* :root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --primary: #0d6efd;
+  --danger: #dc3545;
+}
+
+/* Dark theme overrides 
+.dark {
+  --bg: #0f1115;
+  --surface: #161a22;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --border: #2a2f3a;
+  --primary: #3b82f6;
+  --danger: #f87171;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+
+input, select, textarea {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+button {
+  color: var(--text);
+  border: 1px solid transparent;
+  background: var(--surface);
+}
+
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+} */
