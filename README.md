@@ -1,6 +1,5 @@
 # Task Flow – Task Management Platform ✅
 
-![Task Flow Logo](path/to/logo.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![JavaScript](https://img.shields.io/badge/JS-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
